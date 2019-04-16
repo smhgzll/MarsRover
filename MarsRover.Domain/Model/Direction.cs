@@ -1,4 +1,4 @@
-﻿namespace MarsRover
+﻿namespace MarsRover.Domain.Model
 {
     public enum Direction
     {

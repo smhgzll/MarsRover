@@ -1,4 +1,7 @@
-﻿namespace MarsRover
+﻿using MarsRover.Domain.Controller;
+using MarsRover.Domain.Model;
+
+namespace MarsRover.Domain.Rover
 {
     public class Rover
     {

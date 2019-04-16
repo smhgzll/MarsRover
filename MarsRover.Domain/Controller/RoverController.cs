@@ -1,10 +1,19 @@
-﻿namespace MarsRover
+﻿using MarsRover.Domain.Model;
+
+namespace MarsRover.Domain.Controller
 {
     public class RoverController
     {
         public Point Position { get; private set; }
         public Direction Heading { get; private set; }
         private Terrain Boundaries { get; set; }
+
+        public RoverController(Point position, Direction heading, Terrain boundaries)
+        {
+            this.Position = position;
+            this.Heading = heading;
+            this.Boundaries = boundaries;
+        }
 
         public void Move()
         {
@@ -55,13 +64,6 @@
             {
                 Heading = Direction.South;
             }
-        }
-
-        public RoverController(Point position, Direction heading, Terrain boundaries)
-        {
-            this.Position = position;
-            this.Heading = heading;
-            this.Boundaries = boundaries;
         }
 
         public void SequenceDemodulator(string sequenceOfCommands)
