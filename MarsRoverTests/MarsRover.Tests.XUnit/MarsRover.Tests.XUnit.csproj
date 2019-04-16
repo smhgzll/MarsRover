@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MarsRover.Domain\MarsRover.Domain.csproj" />
+    <ProjectReference Include="..\..\MarsRover.Domain\MarsRover.Domain.csproj" />
   </ItemGroup>
 
 </Project>
