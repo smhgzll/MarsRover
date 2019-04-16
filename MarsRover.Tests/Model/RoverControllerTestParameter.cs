@@ -1,9 +1,6 @@
 ﻿using MarsRover.Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MarsRover.Tests.Model
+namespace MarsRover.Tests.XUnit.Model
 {
     public class RoverControllerTestParameter
     {

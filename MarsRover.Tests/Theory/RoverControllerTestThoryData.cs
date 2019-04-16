@@ -1,8 +1,8 @@
 ﻿using MarsRover.Domain.Model;
-using MarsRover.Tests.Model;
+using MarsRover.Tests.XUnit.Model;
 using Xunit;
 
-namespace MarsRover.Tests.Theory
+namespace MarsRover.Tests.XUnit.Theory
 {
     public class RoverControllerTestThoryData : TheoryData<RoverControllerTestParameter>
     {
